@@ -1,4 +1,3 @@
-# CMM007-coursework
 <?php
 ob_start(); 
 header("Content-Type: application/json"); // Set response to JSON
@@ -94,6 +93,5 @@ try {
 
 // $pdo = null; // Close connection
 ob_end_clean();  // Discard accidental output
-echo json_encode($response);  // Only output
-exit;
+echo json_encode($response);  // Only outputexit;
 ?>

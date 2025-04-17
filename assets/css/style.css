@@ -1,0 +1,13 @@
+.tab-content {
+    padding: 20px 0;
+}
+
+.nav-tabs .nav-link.active {
+    font-weight: bold;
+    background-color: #f8f9fa;
+    border-bottom: 3px solid #0dcaf0;
+}
+
+.nav-tabs .nav-link {
+    color: #495057;
+}
